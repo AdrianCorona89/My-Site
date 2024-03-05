@@ -1,0 +1,62 @@
+.underline {
+    text-decoration: underline;
+}
+
+.background-gamer {
+    background: linear-gradient(-45deg, #B2B377, #D2D180, #e5e483, #a8ac63);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* Customize carousel control icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: gray;
+  border-radius: 50%;
+}
+
+
+.hero-name {
+    color: 
+    #ffffff;
+    font-size: 4rem!important;
+}
+
+.graduate-student {
+    color:#ffffff;
+}
+
+.my-name {
+    border: 10px solid #ffffff;
+
+}
+
+.footer {
+    background-color: #D2D180;
+}
+
+.resume {
+    color: #404040;
+}
+
+ul li::marker {
+    color: #D2D180;
+}
+
+.separator {
+    height: 3px; 
+    background-color:#D2D180
+}
